@@ -1,0 +1,1 @@
+[11-Apr-2016 15:42:33 CST6CDT] PHP Fatal error:  Call to undefined function current_user_can() in /home/himynam5/public_html/samureye/wp-content/themes/ThisWay/index.php on line 6
