@@ -1,0 +1,52 @@
+@font-face{font-family:'TrueLies';src:url('fonts/TrueLies.eot');src:url('fonts/TrueLies.eot?#iefix') format('embedded-opentype'),
+url('fonts/TrueLies.woff2') format('woff2'),
+url('fonts/TrueLies.woff') format('woff'),
+url('fonts/TrueLies.ttf') format('truetype');font-weight:normal;font-style:normal;}
+
+@font-face{font-family:'Ostrich';src:url('fonts/OstrichSans.eot');src:url('fonts/OstrichSans.eot?#iefix') format('embedded-opentype'),
+url('fonts/OstrichSans.woff2') format('woff2'),
+url('fonts/OstrichSans.woff') format('woff'),
+url('fonts/OstrichSans.ttf') format('truetype');font-weight:normal;font-style:normal;}
+
+.white {
+	color: white;
+	font-family: Ostrich;
+	font-size: 36px;
+}
+
+a {
+	text-decoration: none;
+}
+
+h2:hover {
+	color: #E41E25;
+	text-decoration: underline;
+}
+
+html {
+	background-color: black;
+	font-smoothing: antialiased !important;
+	-webkit-font-smoothing: antialiased !important;
+	-moz-osx-font-smoothing: antialiased !important;
+	overflow-scrolling: touch;
+	-webkit-overflow-scrolling: touch;
+}
+
+#outer {
+	position: absolute;
+	height: 100%;
+    width: 100%;
+    margin: 0px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+#headline {
+	margin: 0px;
+}
+
+img {
+	max-width: 80%;
+}

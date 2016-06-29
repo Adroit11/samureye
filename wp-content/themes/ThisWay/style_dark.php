@@ -96,6 +96,13 @@ a:hover, a:active{
 	text-decoration:none;
 }
 
+a.header-link {
+	text-decoration: underline;
+    font-family: 'Oswald', sans-serif;
+    color: #ffcc00;
+    font-size: 20px;
+}
+
 body{
 	background: #000;
 	overflow:hidden;
@@ -177,7 +184,8 @@ html {
 	top:50px;
 }
 #bgText h3{
-	font-size:80px;
+	/* Video heading font size */
+	font-size:42px;
 	color:#fff;
 	text-shadow: 1px 1px #333;
 }
@@ -592,7 +600,7 @@ a.closebutton:active{
 	margin: 10px 44px 10px 24px;
 }
 
-#bgControl .prev, #bgControl .next,#bgControl .soundicon,#bgControl .soundmute,#bgControl .next,#bgControl .play,#bgControl .pause{	-moz-transition: all 0.5s ease-in-out 0s;	transition: all 0.5s ease-in-out;	-webkit-transition: all 0.5s ease-in-out;	-o-transition: all 0.5s ease-in-out;	display:block;	float:left;	width:26px;	height:26px;	background-color: #141414;	border-radius:13px;}#bgControl .play,#bgControl .soundmute,#bgControl .soundicon,#bgControl .pause{	margin:0 10px;}#bgControl .play{display:none;}#bgControl .soundmute{display:none;}#bgControl .next:link, #bgControl .next:visited{ background: url('images/bgControlRight.jpg') -104px 0 no-repeat;}#bgControl .next:hover, #bgControl .next:active{ background: url('images/bgControlRight.jpg') 0 0 no-repeat;}#bgControl .prev:link, #bgControl .prev:visited{ background: url('images/bgControlLeft.jpg') 0 0 no-repeat;}#bgControl .prev:hover, #bgControl .prev:active{ background: url('images/bgControlLeft.jpg') -104px 0 no-repeat;}#bgControl .pause:link, #bgControl .pause:visited{ background: url('images/bgControlPause.jpg') 0 -104px no-repeat;}#bgControl .pause:hover, #bgControl .pause:active{ background: url('images/bgControlPause.jpg') 0 0 no-repeat;}#bgControl .play:link, #bgControl .play:visited{ background: url('images/bgControlPlay.jpg') 0 0 no-repeat;}#bgControl .play:hover, #bgControl .play:active{ background: url('images/bgControlPlay.jpg') 0 -104px no-repeat;}#bgControl .soundicon:link, #bgControl .soundicon:visited{ background: url('images/icon_mute.png') 0 -104px no-repeat;}#bgControl .soundicon:hover, #bgControl .soundicon:active{ background: url('images/icon_mute.png') 0 0 no-repeat;}#bgControl .soundmute:link, #bgControl .soundmute:visited{ background: url('images/icon_sound.png') 0 -104px no-repeat;}#bgControl .soundmute:hover, #bgControl .soundmute:active{ background: url('images/icon_sound.png') 0 0 no-repeat;}
+#bgControl .prev, #bgControl .next,#bgControl .soundicon,#bgControl .soundmute,#bgControl .next,#bgControl .play,#bgControl .pause{	-moz-transition: all 0.5s ease-in-out 0s;	transition: all 0.5s ease-in-out;	-webkit-transition: all 0.5s ease-in-out;	-o-transition: all 0.5s ease-in-out;	display:block;	float:left;	width:26px;	height:26px;	background-color: #141414;	border-radius:13px;}#bgControl .play,#bgControl .soundmute,#bgControl .soundicon,#bgControl .pause{	margin:0 10px;}#bgControl .play{display:none;}#bgControl .soundmute{display:none;}#bgControl .next:link, #bgControl .next:visited{ background: url('images/bgControlRight.jpg') -104px 0 no-repeat;}#bgControl .next:hover, #bgControl .next:active{ background: url('images/bgControlRight.jpg') 0 0 no-repeat;}#bgControl .prev:link, #bgControl .prev:visited{ background: url('images/bgControlLeft.jpg') 0 0 no-repeat;}#bgControl .prev:hover, #bgControl .prev:active{ background: url('images/bgControlLeft.jpg') -104px 0 no-repeat;}#bgControl .pause:link, #bgControl .pause:visited{ background: url('images/bgControlPause.jpg') 0 -104px no-repeat;}#bgControl .pause:hover, #bgControl .pause:active{ background: url('images/bgControlPause.jpg') 0 0 no-repeat;}#bgControl .play:link, #bgControl .play:visited{ background: url('images/bgControlPlay.jpg') 0 0 no-repeat;}#bgControl .play:hover, #bgControl .play:active{ background: url('images/bgControlPlay.jpg') 0 -104px no-repeat;}#bgControl .soundicon:link, #bgControl .soundicon:visited{ background: url('images/icon_sound.png') 0 -104px no-repeat;}#bgControl .soundicon:hover, #bgControl .soundicon:active{ background: url('images/icon_sound.png') 0 0 no-repeat;}#bgControl .soundmute:link, #bgControl .soundmute:visited{ background: url('images/icon_mute.png') 0 -104px no-repeat;}#bgControl .soundmute:hover, #bgControl .soundmute:active{ background: url('images/icon_mute.png') 0 0 no-repeat;}
 #share{
 	display: <?php eopt('shareIcons','block'); ?>;
 	float:right;
@@ -610,6 +618,8 @@ a.closebutton:active{
 #share .in{background: url('images/social/in.png') no-repeat;}
 #share .st{background: url('images/social/st.png') no-repeat;}
 #share .rss{background: url('images/social/rss.png') no-repeat;}
+#share .ins{background: url('images/social/ins.png') no-repeat;}
+#share .yt{background: url('images/social/yt.png') no-repeat;}
 
 #logo{
 	text-align:center;

@@ -16,6 +16,7 @@ var ytplayer;
 var hasTouch = 'ontouchstart' in window;
 var ytPlayerReady = false;
 var bgPatternV = 'block';
+var videoMuted = true;
 var bgStretch = true;
 // Detect mobile device
 if( navigator.userAgent.match(/Android/i) ||
@@ -516,6 +517,10 @@ ytPlayerReady = true;
 function onPlayerReady(event) {
 	if(!videoPaused)
 		event.target.playVideo();
+	if(videoMuted)
+		videoMute();
+	else
+		videoUnMute();
 }
 var done = false;
 function onPlayerStateChange(event) {
@@ -534,9 +539,12 @@ function vimeoApiReady(player_id){
 	vmplayer = player_id;
 	vmPlayerReady = true;
 	$f(vmplayer).addEvent('finish', vimeoVideoEnded);
-	if(!videoPaused){
+	if(!videoPaused)
 		$f(vmplayer).api('play');
-	}
+	if(videoMuted)
+		videoMute();
+	else
+		videoUnMute();
 }
 function vimeoVideoEnded(player_id){
 	vmplayer = player_id;

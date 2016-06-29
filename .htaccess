@@ -10,3 +10,10 @@ RewriteRule . /samureye/index.php [L]
 </IfModule>
 
 # END WordPress
+
+Options -Indexes
+
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>

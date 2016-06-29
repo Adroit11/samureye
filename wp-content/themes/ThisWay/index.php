@@ -248,12 +248,10 @@ var bgStretch = <?php eopt('bgStretch','true');?>;
 		} ?>
 		<div id="share">
 			<ul>
-				<li><a class="tip fb" target="_blank" rel="http://www.facebook.com/sharer.php?u=%%url%%" href="http://www.facebook.com/sharer.php?u=<?php echo $url;?>" tip-text="Facebook"></a></li>
-				<li><a class="tip tw" target="_blank" rel="http://twitter.com/home?status=Check out this Awesome Site - %%url%%" href="http://twitter.com/home?status=Check out this Awesome Site - <?php echo $url;?>" tip-text="Twitter"></a></li>
-				<li><a class="tip in" target="_blank" rel="http://www.linkedin.com/shareArticle?mini=true&url=%%url%%&title=&summary=&source=" href="http://www.linkedin.com/shareArticle?mini=true&url=<?php echo $url;?>&title=&summary=&source=" tip-text="LinkedIn"></a></li>
-				<li><a class="tip deli" target="_blank" rel="http://del.icio.us/post?url=%%url%%" href="http://del.icio.us/post?url=<?php echo $url;?>" tip-text="delicious"></a></li>
-				<li><a class="tip st" target="_blank" rel="http://www.stumbleupon.com/submit?url=%%url%%" href="http://www.stumbleupon.com/submit?url=<?php echo $url;?>" tip-text="StumbleUpon"></a></li>
-				<li><a class="tip rss" target="_blank" href="<?php echo $url;?>?feed=rss" tip-text="RSS"></a></li>
+				<li><a class="tip fb" target="_blank" rel="http://www.facebook.com/samureyefilms" href="http://www.facebook.com/samureyefilms" tip-text="Facebook"></a></li>
+				<li><a class="tip tw" target="_blank" rel="http://twitter.com/samureyefilms" href="http://twitter.com/samureyefilms" tip-text="Twitter"></a></li>
+				<li><a class="tip ins" target="_blank" rel="http://www.instagram.com/samureyefilms" href="http://www.instagram.com/samureyefilms" tip-text="Instagram"></a></li>
+				<li><a class="tip yt" target="_blank" rel="http://www.youtube.com/samureyefilms" href="http://www.youtube.com/samureyefilms" tip-text="YouTube"></a></li>
 			</ul>		
 		</div>
 		<!-- END: Share Buttons -->
